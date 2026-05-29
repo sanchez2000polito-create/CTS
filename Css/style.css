@@ -32,7 +32,7 @@ body {
     z-index: 1000;
     background: rgba(230, 230, 232, 0.1);
     backdrop-filter: blur(2px);
-    border: 1px solid rgba(77, 27, 194, 0.8);
+    /* border: 1px solid rgba(77, 27, 194, 0.8); */
 }
 
 /* CENTRO */
@@ -860,13 +860,14 @@ footer {
 
     .cabezera nav {
         flex-wrap: wrap;
-        height: auto;
-        padding: 12px;
+        height: 90px;
+        padding-bottom: 10px;
     }
 
     .nav-centro {
         padding-left: 0;
         flex-wrap: wrap;
+        height: 116px;
         justify-content: center;
         gap: 10px;
     }
@@ -890,7 +891,7 @@ footer {
         flex-direction: column;
         width: 100%;
         gap: 8px;
-        padding: 10px;
+        padding-top: 10px;
     }
 
     footer {
