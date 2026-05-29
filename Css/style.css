@@ -860,14 +860,13 @@ footer {
 
     .cabezera nav {
         flex-wrap: wrap;
-        height: 90px;
+
         padding-bottom: 10px;
     }
 
     .nav-centro {
         padding-left: 0;
         flex-wrap: wrap;
-        height: 116px;
         justify-content: center;
         gap: 10px;
     }
