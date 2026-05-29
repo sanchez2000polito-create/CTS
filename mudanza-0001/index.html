@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARGA TU CASA SEGURA</title>
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+    <header class="cabezera">
+        <nav>
+            <section class="nav-izquierda">
+                <a href="index.html" class="logo">
+                    <img src="imagenes/Logo_CTS.png" alt="CTS" />
+                </a>
+            </section>
+
+            <form class="barra-busqueda busqueda-mobile" action="busqueda.html" method="get">
+                <input type="text" name="q" placeholder="Buscar...">
+            </form>
+
+            <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Abrir menu">
+            <label class="hamburger-btn" for="menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <label class="menu-overlay" for="menu-toggle" aria-label="Cerrar menu"></label>
+
+            <section class="hamburger-menu" aria-label="Menu principal">
+                <section class="nav-centro">
+                    <a href="Trayectoria.html">TRAYECTORIA</a>
+
+                    <section class="dropdown">
+                        <input class="help-toggle" type="checkbox" id="help-toggle" aria-label="Abrir ayuda">
+                        <label class="dropbtn" for="help-toggle">AYUDA</label>
+                        <section class="dropdown-content">
+                            <a href="ComoUsarCTS.html">Como usar CTS</a>
+                            <a href="QuienesSomos.html">Quienes somos</a>
+                            <a href="PreguntasFrecuentes.html">Preguntas Frecuentes</a>
+                            <a href="Testimonios.html">Testimonios</a>
+                        </section>
+                    </section>
+
+                    <form class="barra-busqueda busqueda-desktop" action="busqueda.html" method="get">
+                        <input type="text" name="q" placeholder="Buscar...">
+                    </form>
+                </section>
+
+                <section class="nav-derecha">
+                    <a href="inicio.html">INICIO</a>
+                    <a href="Registro.html">REGISTRO</a>
+                </section>
+            </section>
+        </nav>
+    </header>
+
+    <!-- Sección principal -->
+    <main>
+        <section class="conten">
+            <aside class="dere">
+                ¡Haz parte de la familia CTS y transforma tu mudanza en una experiencia sin estrés!
+                Aquí no solo movemos cajas, movemos sueños, historias y nuevos comienzos.
+                Únete hoy y descubre lo fácil que es avanzar con nosotros a tu lado.
+            </aside>
+            <aside class="izqui">
+                <img src="imagenes/Camion.png" alt="Camión de mudanza">
+            </aside>
+        </section>
+        <!-- Planea tu mudanza -->
+        <section class="mudanza">
+            <h2>Planea tu mudanza</h2>
+            <p id="lol">Para realizar una mudanza segura y organizada, sigue estos pasos:</p>
+            <ul>
+                <li>Planifica con anticipación.</li>
+                <li>Haz un inventario.</li>
+                <li>Empaca correctamente.</li>
+                <li>Etiqueta cada caja.</li>
+                <li>Selecciona el vehículo adecuado.</li>
+                <li>Confirma la ruta y horario.</li>
+                <li>Supervisa la carga y descarga.</li>
+                <li>Revisa al finalizar.</li>
+            </ul>
+        </section>
+
+
+        <section class="agenda">
+            <h2>Reserva tu mudanza</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" name="hora" required>
+
+                <label for="servicio">Servicio:</label>
+                <input type="text" id="servicio" name="servicio">
+
+                <button type="submit">Reservar</button>
+            </form>
+            <p class="info">Elige la hora exacta del trayecto con hasta 90 días de anticipación.
+                Tiempo de espera adicional incluido. Cancela sin cargo con hasta 60 minutos de anticipación.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto integrador cesde – 2026 Momento 3</p>
+
+        <section class="footer-links">
+            <a href="Politicas.html">Políticas</a> |
+            <a href="TerminoyCondiciones.html">Términos y condiciones</a> |
+            <a href="contacto.html">Contacto</a>
+        </section>
+
+        <section class="footer-social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="imagenes/Logo_face.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="imagenes/Logo_inst.png" alt="Instagram">
+            </a>
+            <a href="https://www.gmail.com">
+                <img src="imagenes/Logo_gmail.png" alt="Gmail">
+            </a>
+        </section>
+    </footer>
+</body>
+
+</html>

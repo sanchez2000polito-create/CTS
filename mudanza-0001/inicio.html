@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INICIO</title>
+  <link rel="stylesheet" href="Css/style.css">
+
+</head>
+
+<body>
+  <header class="cabezera">
+    <nav>
+      <section class="nav-izquierda">
+        <a href="index.html" class="logo">
+          <img src="imagenes/Logo_CTS.png" alt="CTS" />
+        </a>
+      </section>
+
+      <form class="barra-busqueda busqueda-mobile" action="busqueda.html" method="get">
+        <input type="text" name="q" placeholder="Buscar...">
+      </form>
+
+      <input class="menu-toggle" type="checkbox" id="menu-toggle" aria-label="Abrir menu">
+      <label class="hamburger-btn" for="menu-toggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <label class="menu-overlay" for="menu-toggle" aria-label="Cerrar menu"></label>
+
+      <section class="hamburger-menu" aria-label="Menu principal">
+        <section class="nav-centro">
+          <a href="Trayectoria.html">TRAYECTORIA</a>
+
+          <section class="dropdown">
+            <input class="help-toggle" type="checkbox" id="help-toggle" aria-label="Abrir ayuda">
+            <label class="dropbtn" for="help-toggle">AYUDA</label>
+            <section class="dropdown-content">
+              <a href="ComoUsarCTS.html">Como usar CTS</a>
+              <a href="QuienesSomos.html">Quienes somos</a>
+              <a href="PreguntasFrecuentes.html">Preguntas Frecuentes</a>
+              <a href="Testimonios.html">Testimonios</a>
+            </section>
+          </section>
+
+          <form class="barra-busqueda busqueda-desktop" action="busqueda.html" method="get">
+            <input type="text" name="q" placeholder="Buscar...">
+          </form>
+        </section>
+
+        <section class="nav-derecha">
+          <a href="inicio.html">INICIO</a>
+          <a href="Registro.html">REGISTRO</a>
+        </section>
+      </section>
+    </nav>
+  </header>
+
+  <section class="login-flotante">
+    <h2>Iniciar Sesión</h2>
+
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="email" placeholder="Correo electrónico">
+    <input type="password" placeholder="Contraseña">
+    <a href="#">Recuperar contraseña</a>
+
+    <button onclick="entrar()">Entrar</button>
+  </section>
+
+  <footer>
+    <p>Proyecto integrador cesde – 2026 Momento 3</p>
+
+    <section class="footer-links">
+      <a href="Politicas.html">Políticas</a> |
+      <a href="TerminoyCondiciones.html">Términos y condiciones</a> |
+      <a href="contacto.html">Contacto</a>
+    </section>
+
+    <section class="footer-social">
+      <a href="https://facebook.com" target="_blank">
+        <img src="imagenes/Logo_face.png" alt="Facebook">
+      </a>
+      <a href="https://instagram.com" target="_blank">
+        <img src="imagenes/Logo_inst.png" alt="Instagram">
+      </a>
+      <a href="https://www.gmail.com">
+        <img src="imagenes/Logo_gmail.png" alt="Gmail">
+      </a>
+    </section>
+  </footer>
+</body>
+
+</html>
